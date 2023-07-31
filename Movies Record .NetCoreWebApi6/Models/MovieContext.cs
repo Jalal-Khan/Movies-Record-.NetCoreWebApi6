@@ -10,6 +10,6 @@ namespace Movies_Record_.NetCoreWebApi6.Models
         {
         }
 
-        DbSet<Movie> Movies { get; set; } = null!;
+        public DbSet<Movie> Movies { get; set; } = null!;
     }
 }
